@@ -7,6 +7,7 @@ mplt.test()
 """
 将生成的随机数据传入数据库，并将数据库内容保存一份在dataDB.txt中
 """
+print('wait...')
 for data in rd.data_creat():
     mg.insertDB(data)
 print('insert finished!')
